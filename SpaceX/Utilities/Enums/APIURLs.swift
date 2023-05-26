@@ -17,3 +17,8 @@ enum APIURLs {
         "\(baseURL)\(id)"
     }
 }
+
+enum LaunchType {
+    case upcoming
+    case past
+}
