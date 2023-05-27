@@ -19,6 +19,7 @@
 		EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AC52A21003500C9A7C3 /* CGFloat+Ext.swift */; };
 		EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AC72A21181900C9A7C3 /* APIURLs.swift */; };
 		EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AC92A21199F00C9A7C3 /* Constants.swift */; };
+		EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACB2A212E9600C9A7C3 /* Launch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		EC554AC52A21003500C9A7C3 /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
 		EC554AC72A21181900C9A7C3 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
 		EC554AC92A21199F00C9A7C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC554ACB2A212E9600C9A7C3 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		EC554ABC2A20D19600C9A7C3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC554ACB2A212E9600C9A7C3 /* Launch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
+				EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */,
 				EC554AB92A20CD6100C9A7C3 /* HomeVC.swift in Sources */,
 				EC554A9A2A20B7EE00C9A7C3 /* AppDelegate.swift in Sources */,
 				EC554AC22A20F12700C9A7C3 /* CacheManager.swift in Sources */,
