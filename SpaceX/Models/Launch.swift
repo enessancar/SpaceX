@@ -47,7 +47,7 @@ extension Launch {
     }
     
     var _launchDate: String {
-        ""
+        _dateUnix.unixToDate().dayMonthYear()
     }
     
     var _landingAttempt: String {

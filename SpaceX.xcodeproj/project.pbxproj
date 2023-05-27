@@ -21,6 +21,7 @@
 		EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AC92A21199F00C9A7C3 /* Constants.swift */; };
 		EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACB2A212E9600C9A7C3 /* Launch.swift */; };
 		EC554ACE2A22040700C9A7C3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */; };
+		EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EC554AC92A21199F00C9A7C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EC554ACB2A212E9600C9A7C3 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			children = (
 				EC554AC52A21003500C9A7C3 /* CGFloat+Ext.swift */,
 				EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */,
+				EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
+				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
 				EC554ACE2A22040700C9A7C3 /* Date+Ext.swift in Sources */,
 				EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */,
