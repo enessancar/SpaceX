@@ -25,6 +25,7 @@
 		EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */; };
 		EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */; };
 		EC554AFC2A23C02500C9A7C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC554AFB2A23C02500C9A7C3 /* SnapKit */; };
+		EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 		EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				EC554AB22A20CCB400C9A7C3 /* Support */,
+				EC554AAE2A20B81200C9A7C3 /* Utilities */,
 				EC554ABB2A20CDC600C9A7C3 /* Extensions */,
 				EC554ABC2A20D19600C9A7C3 /* Models */,
 				EC554ABA2A20CDC100C9A7C3 /* Services */,
 				EC554AAD2A20B7FA00C9A7C3 /* Core */,
-				EC554AAE2A20B81200C9A7C3 /* Utilities */,
 			);
 			path = SpaceX;
 			sourceTree = "<group>";
@@ -159,6 +161,7 @@
 		EC554AB42A20CD1300C9A7C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EC554AFE2A23DAAF00C9A7C3 /* Buttons */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -212,6 +215,14 @@
 				EC554ACB2A212E9600C9A7C3 /* Launch.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EC554AFE2A23DAAF00C9A7C3 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
 				EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */,
 				EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */,
+				EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */,
 				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
 				EC554ACE2A22040700C9A7C3 /* Date+Ext.swift in Sources */,
