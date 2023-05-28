@@ -22,6 +22,9 @@
 		EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACB2A212E9600C9A7C3 /* Launch.swift */; };
 		EC554ACE2A22040700C9A7C3 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */; };
 		EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */; };
+		EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */; };
+		EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */; };
+		EC554AFC2A23C02500C9A7C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC554AFB2A23C02500C9A7C3 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,8 @@
 		EC554ACB2A212E9600C9A7C3 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC554AFC2A23C02500C9A7C3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +200,8 @@
 				EC554AC52A21003500C9A7C3 /* CGFloat+Ext.swift */,
 				EC554ACD2A22040700C9A7C3 /* Date+Ext.swift */,
 				EC554ACF2A2208B000C9A7C3 /* Double+Ext.swift */,
+				EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */,
+				EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -222,6 +230,9 @@
 			dependencies = (
 			);
 			name = SpaceX;
+			packageProductDependencies = (
+				EC554AFB2A23C02500C9A7C3 /* SnapKit */,
+			);
 			productName = SpaceX;
 			productReference = EC554A962A20B7EE00C9A7C3 /* SpaceX.app */;
 			productType = "com.apple.product-type.application";
@@ -250,6 +261,9 @@
 				Base,
 			);
 			mainGroup = EC554A8D2A20B7EE00C9A7C3;
+			packageReferences = (
+				EC554AFA2A23C02500C9A7C3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EC554A972A20B7EE00C9A7C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,6 +292,8 @@
 			files = (
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
+				EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */,
+				EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */,
 				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
 				EC554ACE2A22040700C9A7C3 /* Date+Ext.swift in Sources */,
@@ -502,6 +518,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC554AFA2A23C02500C9A7C3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC554AFB2A23C02500C9A7C3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC554AFA2A23C02500C9A7C3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC554A8E2A20B7EE00C9A7C3 /* Project object */;
 }
