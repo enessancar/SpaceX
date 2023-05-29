@@ -26,6 +26,7 @@
 		EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */; };
 		EC554AFC2A23C02500C9A7C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC554AFB2A23C02500C9A7C3 /* SnapKit */; };
 		EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */; };
+		EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		EC554AF62A23A57200C9A7C3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				EC554AFE2A23DAAF00C9A7C3 /* Buttons */,
+				EC554B012A23E79600C9A7C3 /* Cells */,
+				EC554B022A23E79D00C9A7C3 /* ImageViews */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -223,6 +227,21 @@
 				EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EC554B012A23E79600C9A7C3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EC554B022A23E79D00C9A7C3 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */,
+			);
+			path = ImageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +335,7 @@
 				EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */,
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
+				EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */,
 				EC554AC42A20FAF100C9A7C3 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

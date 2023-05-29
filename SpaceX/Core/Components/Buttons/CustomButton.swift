@@ -11,6 +11,7 @@ final class CustomButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     convenience init(title: String, backgroundColor: UIColor) {

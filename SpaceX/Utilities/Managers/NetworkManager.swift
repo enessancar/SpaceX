@@ -39,11 +39,11 @@ final class NetworkManager: NetworkManagerProtocol {
         return dataTask
     }
     
-    func handleWithData<T>(_ data: Data, type: T.Type) -> T? where T : Decodable {
+    func handleWithData<T: Decodable>(_ data: Data, type: T.Type) -> T? {
         do {
             let result = try JSONDecoder().decode(T.self, from: data)
             return result
-        }catch {
+        } catch {
             print(CustomError.unableToParseFromJSON.rawValue)
             return nil
         }
