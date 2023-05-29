@@ -32,6 +32,8 @@
 		EC554B0C2A24A6A300C9A7C3 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */; };
 		EC554B0E2A24FEEA00C9A7C3 /* AlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B0D2A24FEEA00C9A7C3 /* AlertContainerView.swift */; };
 		EC554B112A2502FA00C9A7C3 /* StaticDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */; };
+		EC554B132A25174000C9A7C3 /* DateComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B122A25174000C9A7C3 /* DateComponentView.swift */; };
+		EC554B152A25315600C9A7C3 /* LinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B142A25315600C9A7C3 /* LinkItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
 		EC554B0D2A24FEEA00C9A7C3 /* AlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContainerView.swift; sourceTree = "<group>"; };
 		EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDateView.swift; sourceTree = "<group>"; };
+		EC554B122A25174000C9A7C3 /* DateComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentView.swift; sourceTree = "<group>"; };
+		EC554B142A25315600C9A7C3 /* LinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +283,8 @@
 			isa = PBXGroup;
 			children = (
 				EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */,
+				EC554B122A25174000C9A7C3 /* DateComponentView.swift */,
+				EC554B142A25315600C9A7C3 /* LinkItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
 				EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */,
+				EC554B132A25174000C9A7C3 /* DateComponentView.swift in Sources */,
 				EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */,
 				EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */,
 				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
@@ -371,6 +378,7 @@
 				EC554ACC2A212E9600C9A7C3 /* Launch.swift in Sources */,
 				EC554AB92A20CD6100C9A7C3 /* HomeVC.swift in Sources */,
 				EC554A9A2A20B7EE00C9A7C3 /* AppDelegate.swift in Sources */,
+				EC554B152A25315600C9A7C3 /* LinkItemView.swift in Sources */,
 				EC554B112A2502FA00C9A7C3 /* StaticDateView.swift in Sources */,
 				EC554AC22A20F12700C9A7C3 /* CacheManager.swift in Sources */,
 				EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */,
