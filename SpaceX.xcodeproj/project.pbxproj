@@ -27,6 +27,7 @@
 		EC554AFC2A23C02500C9A7C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC554AFB2A23C02500C9A7C3 /* SnapKit */; };
 		EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */; };
 		EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */; };
+		EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B062A24966700C9A7C3 /* TitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		EC554AF82A23AFE500C9A7C3 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		EC554B062A24966700C9A7C3 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		EC554AB42A20CD1300C9A7C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EC554B052A24964900C9A7C3 /* Labels */,
 				EC554AFE2A23DAAF00C9A7C3 /* Buttons */,
 				EC554B012A23E79600C9A7C3 /* Cells */,
 				EC554B022A23E79D00C9A7C3 /* ImageViews */,
@@ -242,6 +245,14 @@
 				EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */,
 			);
 			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		EC554B052A24964900C9A7C3 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				EC554B062A24966700C9A7C3 /* TitleLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +346,7 @@
 				EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */,
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
+				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
 				EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */,
 				EC554AC42A20FAF100C9A7C3 /* UIHelper.swift in Sources */,
 			);
