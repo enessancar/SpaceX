@@ -29,6 +29,7 @@
 		EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */; };
 		EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B062A24966700C9A7C3 /* TitleLabel.swift */; };
 		EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */; };
+		EC554B0C2A24A6A300C9A7C3 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		EC554B062A24966700C9A7C3 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		EC554AB42A20CD1300C9A7C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EC554B0A2A24A68C00C9A7C3 /* StackViews */,
 				EC554B052A24964900C9A7C3 /* Labels */,
 				EC554AFE2A23DAAF00C9A7C3 /* Buttons */,
 				EC554B012A23E79600C9A7C3 /* Cells */,
@@ -258,6 +261,14 @@
 			path = Labels;
 			sourceTree = "<group>";
 		};
+		EC554B0A2A24A68C00C9A7C3 /* StackViews */ = {
+			isa = PBXGroup;
+			children = (
+				EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */,
+			);
+			path = StackViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC554B0C2A24A6A300C9A7C3 /* CustomStackView.swift in Sources */,
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
 				EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */,
