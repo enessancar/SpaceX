@@ -28,6 +28,7 @@
 		EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */; };
 		EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */; };
 		EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B062A24966700C9A7C3 /* TitleLabel.swift */; };
+		EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		EC554AFF2A23DAC200C9A7C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		EC554B032A23E7D800C9A7C3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		EC554B062A24966700C9A7C3 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				EC554B062A24966700C9A7C3 /* TitleLabel.swift */,
+				EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */,
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
+				EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */,
 				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
 				EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */,
 				EC554AC42A20FAF100C9A7C3 /* UIHelper.swift in Sources */,

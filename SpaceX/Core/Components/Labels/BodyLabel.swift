@@ -1,5 +1,5 @@
 //
-//  TitleLabel.swift
+//  BodyLabel.swift
 //  SpaceX
 //
 //  Created by Enes Sancar on 29.05.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class TitleLabel: UILabel {
+final class BodyLabel: UILabel {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,17 +20,17 @@ final class TitleLabel: UILabel {
     
     convenience init(text: String, textAlignment: NSTextAlignment, fontSize: CGFloat) {
         self.init(frame: .zero)
-        
+              
         self.text = text
         self.textAlignment = textAlignment
-        self.font = .boldSystemFont(ofSize: fontSize)
+        self.font = .systemFont(ofSize: fontSize)
     }
     
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
         
-        numberOfLines = 1
-        textColor = .black
+        numberOfLines = 0
+        textColor = .secondaryLabel
         
         adjustsFontForContentSizeCategory = true
         adjustsFontSizeToFitWidth = true
