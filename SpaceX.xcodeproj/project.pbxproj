@@ -30,6 +30,7 @@
 		EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B062A24966700C9A7C3 /* TitleLabel.swift */; };
 		EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */; };
 		EC554B0C2A24A6A300C9A7C3 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */; };
+		EC554B0E2A24FEEA00C9A7C3 /* AlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B0D2A24FEEA00C9A7C3 /* AlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		EC554B062A24966700C9A7C3 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		EC554B082A24A32A00C9A7C3 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
 		EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		EC554B0D2A24FEEA00C9A7C3 /* AlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				EC554B0B2A24A6A300C9A7C3 /* CustomStackView.swift */,
+				EC554B0D2A24FEEA00C9A7C3 /* AlertContainerView.swift */,
 			);
 			path = StackViews;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
 				EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */,
 				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
+				EC554B0E2A24FEEA00C9A7C3 /* AlertContainerView.swift in Sources */,
 				EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */,
 				EC554AC42A20FAF100C9A7C3 /* UIHelper.swift in Sources */,
 			);
