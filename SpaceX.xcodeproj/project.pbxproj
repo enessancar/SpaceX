@@ -36,6 +36,7 @@
 		EC554B152A25315600C9A7C3 /* LinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B142A25315600C9A7C3 /* LinkItemView.swift */; };
 		EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */; };
 		EC554B192A25D67900C9A7C3 /* LaunchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B182A25D67900C9A7C3 /* LaunchHeaderView.swift */; };
+		EC554B1C2A26376900C9A7C3 /* CustomAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		EC554B142A25315600C9A7C3 /* LinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItemView.swift; sourceTree = "<group>"; };
 		EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
 		EC554B182A25D67900C9A7C3 /* LaunchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHeaderView.swift; sourceTree = "<group>"; };
+		EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		EC554AB42A20CD1300C9A7C3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EC554B1A2A26371C00C9A7C3 /* ViewControllers */,
 				EC554B0F2A2502AD00C9A7C3 /* Views */,
 				EC554B0A2A24A68C00C9A7C3 /* StackViews */,
 				EC554B052A24964900C9A7C3 /* Labels */,
@@ -295,6 +298,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EC554B1A2A26371C00C9A7C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -392,6 +403,7 @@
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
 				EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */,
+				EC554B1C2A26376900C9A7C3 /* CustomAlertVC.swift in Sources */,
 				EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */,
 				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
 				EC554B0E2A24FEEA00C9A7C3 /* AlertContainerView.swift in Sources */,
