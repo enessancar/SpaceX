@@ -37,6 +37,8 @@
 		EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */; };
 		EC554B192A25D67900C9A7C3 /* LaunchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B182A25D67900C9A7C3 /* LaunchHeaderView.swift */; };
 		EC554B1C2A26376900C9A7C3 /* CustomAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */; };
+		EC554B1E2A2660A000C9A7C3 /* AttributesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */; };
+		EC554B202A268EF400C9A7C3 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
 		EC554B182A25D67900C9A7C3 /* LaunchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHeaderView.swift; sourceTree = "<group>"; };
 		EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertVC.swift; sourceTree = "<group>"; };
+		EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesVC.swift; sourceTree = "<group>"; };
+		EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +260,7 @@
 		EC554B012A23E79600C9A7C3 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */,
+				EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				EC554B192A25D67900C9A7C3 /* LaunchHeaderView.swift in Sources */,
 				EC554B132A25174000C9A7C3 /* DateComponentView.swift in Sources */,
 				EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */,
+				EC554B202A268EF400C9A7C3 /* AttributeCell.swift in Sources */,
 				EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */,
 				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
@@ -403,6 +410,7 @@
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
 				EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */,
+				EC554B1E2A2660A000C9A7C3 /* AttributesVC.swift in Sources */,
 				EC554B1C2A26376900C9A7C3 /* CustomAlertVC.swift in Sources */,
 				EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */,
 				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
