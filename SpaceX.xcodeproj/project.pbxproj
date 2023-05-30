@@ -34,6 +34,7 @@
 		EC554B112A2502FA00C9A7C3 /* StaticDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */; };
 		EC554B132A25174000C9A7C3 /* DateComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B122A25174000C9A7C3 /* DateComponentView.swift */; };
 		EC554B152A25315600C9A7C3 /* LinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B142A25315600C9A7C3 /* LinkItemView.swift */; };
+		EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDateView.swift; sourceTree = "<group>"; };
 		EC554B122A25174000C9A7C3 /* DateComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentView.swift; sourceTree = "<group>"; };
 		EC554B142A25315600C9A7C3 /* LinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItemView.swift; sourceTree = "<group>"; };
+		EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +287,7 @@
 				EC554B102A2502FA00C9A7C3 /* StaticDateView.swift */,
 				EC554B122A25174000C9A7C3 /* DateComponentView.swift */,
 				EC554B142A25315600C9A7C3 /* LinkItemView.swift */,
+				EC554B162A255A8100C9A7C3 /* PastLaunchDateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				EC554ACA2A21199F00C9A7C3 /* Constants.swift in Sources */,
 				EC554AC82A21181900C9A7C3 /* APIURLs.swift in Sources */,
 				EC554B092A24A32A00C9A7C3 /* BodyLabel.swift in Sources */,
+				EC554B172A255A8100C9A7C3 /* PastLaunchDateView.swift in Sources */,
 				EC554B072A24966700C9A7C3 /* TitleLabel.swift in Sources */,
 				EC554B0E2A24FEEA00C9A7C3 /* AlertContainerView.swift in Sources */,
 				EC554B042A23E7D800C9A7C3 /* CustomImageView.swift in Sources */,

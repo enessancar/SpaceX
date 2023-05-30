@@ -16,6 +16,12 @@ final class LinkItemView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        configure()
+        configureImageView()
+        configureTitleLabel()
+        
+        showDisclosureIndicator(size: 24, tintColor: .secondaryLabel)
     }
     
     required init?(coder: NSCoder) {
