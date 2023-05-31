@@ -39,6 +39,7 @@
 		EC554B1C2A26376900C9A7C3 /* CustomAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */; };
 		EC554B1E2A2660A000C9A7C3 /* AttributesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */; };
 		EC554B202A268EF400C9A7C3 /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */; };
+		EC554B222A272C7E00C9A7C3 /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554B212A272C7E00C9A7C3 /* LaunchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		EC554B1B2A26376900C9A7C3 /* CustomAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertVC.swift; sourceTree = "<group>"; };
 		EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesVC.swift; sourceTree = "<group>"; };
 		EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		EC554B212A272C7E00C9A7C3 /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				EC554B1F2A268EF400C9A7C3 /* AttributeCell.swift */,
+				EC554B212A272C7E00C9A7C3 /* LaunchCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				EC554B132A25174000C9A7C3 /* DateComponentView.swift in Sources */,
 				EC554AF72A23A57200C9A7C3 /* UIViewController+Ext.swift in Sources */,
 				EC554B202A268EF400C9A7C3 /* AttributeCell.swift in Sources */,
+				EC554B222A272C7E00C9A7C3 /* LaunchCell.swift in Sources */,
 				EC554B002A23DAC200C9A7C3 /* CustomButton.swift in Sources */,
 				EC554AD02A2208B000C9A7C3 /* Double+Ext.swift in Sources */,
 				EC554ABE2A20E11700C9A7C3 /* NetworkManager.swift in Sources */,
