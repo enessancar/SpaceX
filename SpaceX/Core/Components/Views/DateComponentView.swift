@@ -39,6 +39,10 @@ final class DateComponentView: UIView {
         guard showColon else { return }
         configureColonLabel()
     }
+    
+    func setup(value: String) {
+        valueLabel.text = value
+    }
 }
 
 extension DateComponentView {

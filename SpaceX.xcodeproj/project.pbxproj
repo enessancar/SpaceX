@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3E02F12A28805100EF77DB /* UpcomingDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E02F02A28805100EF77DB /* UpcomingDateVC.swift */; };
 		EC554A9A2A20B7EE00C9A7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554A992A20B7EE00C9A7C3 /* AppDelegate.swift */; };
 		EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554A9B2A20B7EE00C9A7C3 /* SceneDelegate.swift */; };
 		EC554AA32A20B7EF00C9A7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC554AA22A20B7EF00C9A7C3 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC3E02F02A28805100EF77DB /* UpcomingDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingDateVC.swift; sourceTree = "<group>"; };
 		EC554A962A20B7EE00C9A7C3 /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC554A992A20B7EE00C9A7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC554A9B2A20B7EE00C9A7C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 				EC554B1D2A2660A000C9A7C3 /* AttributesVC.swift */,
 				EC554B232A2771BB00C9A7C3 /* BaseVC.swift */,
 				EC554B252A27973F00C9A7C3 /* LinksVC.swift */,
+				EC3E02F02A28805100EF77DB /* UpcomingDateVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC554B0C2A24A6A300C9A7C3 /* CustomStackView.swift in Sources */,
+				EC3E02F12A28805100EF77DB /* UpcomingDateVC.swift in Sources */,
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554B262A27973F00C9A7C3 /* LinksVC.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
