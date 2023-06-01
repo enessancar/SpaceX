@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC3E02F12A28805100EF77DB /* UpcomingDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E02F02A28805100EF77DB /* UpcomingDateVC.swift */; };
+		EC3E02F32A28EA9A00EF77DB /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E02F22A28EA9A00EF77DB /* LaunchService.swift */; };
 		EC554A9A2A20B7EE00C9A7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554A992A20B7EE00C9A7C3 /* AppDelegate.swift */; };
 		EC554A9C2A20B7EE00C9A7C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC554A9B2A20B7EE00C9A7C3 /* SceneDelegate.swift */; };
 		EC554AA32A20B7EF00C9A7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC554AA22A20B7EF00C9A7C3 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		EC3E02F02A28805100EF77DB /* UpcomingDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingDateVC.swift; sourceTree = "<group>"; };
+		EC3E02F22A28EA9A00EF77DB /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
 		EC554A962A20B7EE00C9A7C3 /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC554A992A20B7EE00C9A7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC554A9B2A20B7EE00C9A7C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		EC554ABA2A20CDC100C9A7C3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EC3E02F22A28EA9A00EF77DB /* LaunchService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				EC3E02F12A28805100EF77DB /* UpcomingDateVC.swift in Sources */,
 				EC554AC62A21003500C9A7C3 /* CGFloat+Ext.swift in Sources */,
 				EC554B262A27973F00C9A7C3 /* LinksVC.swift in Sources */,
+				EC3E02F32A28EA9A00EF77DB /* LaunchService.swift in Sources */,
 				EC554AC02A20E2BF00C9A7C3 /* CustomError.swift in Sources */,
 				EC554AF92A23AFE500C9A7C3 /* UIView+Ext.swift in Sources */,
 				EC554B192A25D67900C9A7C3 /* LaunchHeaderView.swift in Sources */,
